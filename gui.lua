@@ -21,7 +21,7 @@ G2L["1"]["ZIndexBehavior"] = Enum.ZIndexBehavior.Sibling;
 G2L["2"] = Instance.new("ImageButton", G2L["1"]);
 G2L["2"]["BorderSizePixel"] = 0;
 G2L["2"]["BackgroundColor3"] = Color3.fromRGB(21, 21, 21);
-G2L["2"]["Image"] = [[http://www.roblox.com/asset/?id=113878001759439]];
+G2L["2"]["Image"] = [[http://www.roblox.com/asset/?id=85164987697666]];
 G2L["2"]["Size"] = UDim2.new(0, 52, 0, 52);
 G2L["2"]["Name"] = [[Open]];
 G2L["2"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
@@ -605,7 +605,7 @@ local script = G2L["11"];
 	local player = game.Players.LocalPlayer.Name
 	local txt = script.Parent
 	
-	txt.Text = "Hello, "..player
+	txt.Text = "Hello, "..player"
 	
 end;
 task.spawn(C_11);
@@ -646,17 +646,17 @@ task.spawn(C_1e);
 local function C_20()
 local script = G2L["20"];
 	script.Parent.MouseButton1Click:Connect(function()
-		setclipboard('https://youtube.com/@TMRXofficial?si=F3xiFAe88ALPropx')
+		setclipboard('https://youtube.com/@falconexecutor?si=E54jKWZGv4Jaqxi8')
 		-- notification
 		local Bindable = Instance.new("BindableFunction")
 		Bindable.OnInvoke = Callback
 	
 		function Callback()
-			print('cubix:android')
+			print('Falcon:android')
 		end
 	
 		game.StarterGui:SetCore("SendNotification", {
-			Title = "Cubix | Android";
+			Title = "Falcon | Android";
 			Text = "Link is copied.";
 			Duration = "10";
 			Button1 = "Close Notification";
@@ -706,7 +706,7 @@ local script = G2L["38"];
 	end)
 	
 	function Callback()
-		print('Nocturna:android')
+		print('Falcon:android')
 	end
 end;
 task.spawn(C_38);
